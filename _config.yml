@@ -1,11 +1,13 @@
 # Site settings
-title: "Jim Keeler"
-email: jim@jimkeeler.com
-description: "Jim Keeler's personal tech blog."
+description: "Senior Security Engineer"
 baseurl: ""
 url: "http://jimkeeler.com"
-twitter_username: jimkeeler
-github_username:  jimkeeler
+
+# User settings
+username: Jim Keeler
+user_description: Senior Security Engineer
+user_title: Senior Security Engineer
+title: "Jim Keeler - Senior Security Engineer"
 
 # Build settings
 markdown: kramdown

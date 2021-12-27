@@ -1,28 +1,19 @@
-<header class="site-header">
-
-  <div class="wrap">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
-          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
-            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
-            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
-            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
+<div id="particles-js">
+  <div class="header">
+      <h1>
+        <span class="site-title">{{site.username}}</span>
+        <span class="site-description">{{site.user_title}}</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" data-name="jim" data-domain="jimkeeler" data-tld="com" onclick="window.location.href='mailto:'+this.dataset.name+'@'+this.dataset.domain+'.'+this.dataset.tld;return false;" href="#"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/jimkeeler"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/jkeeler/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/jimkeeler"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
       </div>
-    </nav>
-
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <!-- <a class="link" href="#projects" data-scroll>Projects</a> -->
+      </div>
   </div>
-
-</header>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
