@@ -1,13 +1,13 @@
 # Site settings
-description: "Senior Security Engineer"
+description: "Principal Product Security Analyst"
 baseurl: ""
 url: "http://jimkeeler.com"
 
 # User settings
 username: Jim Keeler
-user_description: Senior Security Engineer
-user_title: Senior Security Engineer
-title: "Jim Keeler - Senior Security Engineer"
+user_description: Principal Product Security Analyst
+user_title: Principal Product Security Analyst
+title: "Jim Keeler - Principal Product Security Analyst"
 
 # Build settings
 markdown: kramdown
